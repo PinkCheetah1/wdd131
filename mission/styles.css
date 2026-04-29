@@ -1,0 +1,51 @@
+:root {
+    --byui-blue: #3369a9;
+}
+
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 50px auto;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+div {
+    max-width: 450px;
+    margin: 20px auto;
+    padding: 30px 125px;
+    background-color: #fff;
+    border-radius: 1px;
+    border: 1px solid #ccc;
+}
+
+hr {
+    margin: 0;
+}
+
+h1, h2 {
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+h2 {
+    font-size: .8em;
+    color: var(--byui-blue);
+    padding: 0px;
+    margin: 0px;
+}
+
+img {
+    display: block;
+    margin: 50px auto 20px;
+    max-width: 20%;
+    height: auto;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+p {
+    padding-top: 20px;
+}
