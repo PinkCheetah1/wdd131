@@ -37,6 +37,13 @@ nav a:hover {
     color: #cbcbcb;
 }
 
+.menu-button {
+    display: block;
+    color: white;
+    cursor: pointer;
+    text-align: center;
+}
+
 img {
     object-fit: cover;
     width: 300px;
@@ -55,7 +62,7 @@ header, footer {
     .img-container {
         grid-template-columns: 1fr 1fr;
     }
-    .menu-btn {
+    .menu-button {
         display: none;
     }
     nav a {
