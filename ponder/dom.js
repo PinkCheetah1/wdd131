@@ -24,7 +24,11 @@ image.setAttribute('src', 'a-fluffy-dog-with-a-smile-flip-2019-.jpeg')
 
 let selectElem = document.getElementById('webdevlist');
 selectElem.addEventListener('change', function(){
+    document.getElementById('html').style.color = 'purple'
+    document.getElementById("css").style.color = 'purple'
+    document.getElementById("js").style.color = 'purple'
     let codeValue = selectElem.value;
     console.log(codeValue);
+    document.getElementById(codeValue).style.color = 'red';
 })
                     
