@@ -7,12 +7,13 @@
     <title>Cool Pics</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="style.css">
+    <script src="coolpic.js" defer></script>
 </head>
 <body>
     <header>
         <h1>Cool Pics📷</h1>
-        <a class="menu-button">Menu</a>
-        <nav>
+        <a class="menu-button" href="#">Menu</a>
+        <nav class="hidden">
             <a href="#">Home</a>
             <a href="#">People</a>
             <a href="#">Places</a>
@@ -23,20 +24,49 @@
     <main>
         <section>
             <h2>Current Work</h2>
-            <div class="img-container">
-                <img src="coolpic.jpg" alt="A cool picture">
-                <img src="coolpic.jpg" alt="A cool picture">
-                <img src="coolpic.jpg" alt="A cool picture">
-                <img src="coolpic.jpg" alt="A cool picture">
-                <img src="coolpic.jpg" alt="A cool picture">
-                <img src="coolpic.jpg" alt="A cool picture">
-                <img src="coolpic.jpg" alt="A cool picture">
-                <img src="coolpic.jpg" alt="A cool picture">
-                <img src="coolpic.jpg" alt="A cool picture">
-                <img src="coolpic.jpg" alt="A cool picture">
-                <img src="coolpic.jpg" alt="A cool picture">
+            <div class="gallery">
+                <figure>
+                    <img src="coolpic_small.jpg" alt="A cool picture">
+                </figure>
+                <figure>
+                    <img src="coolpic_small.jpg" alt="A cool picture">
+                </figure>
+                <figure>
+                    <img src="coolpic_small.jpg" alt="A cool picture">
+                </figure>
+                <figure>
+                    <img src="coolpic_small.jpg" alt="A cool picture">
+                </figure>
+                <figure>
+                    <img src="coolpic_small.jpg" alt="A cool picture">
+                </figure>
+                <figure>
+                    <img src="coolpic_small.jpg" alt="A cool picture">
+                </figure>
+                <figure>
+                    <img src="coolpic_small.jpg" alt="A cool picture">
+                </figure>
+                <figure>
+                    <img src="coolpic_small.jpg" alt="A cool picture">
+                </figure>
+                <figure>
+                    <img src="coolpic_small.jpg" alt="A cool picture">
+                </figure>
+                <figure>
+                    <img src="coolpic_small.jpg" alt="A cool picture">
+                </figure>
+                <figure>
+                    <img src="coolpic_small.jpg" alt="A cool picture">
+                </figure>
+                <figure>
+                    <img src="coolpic_small.jpg" alt="A cool picture">
+                </figure>
             </div>
         </section>
+        <dialog>
+            <img>
+            <button class="close-viewer">X</button>
+        </dialog>
     <footer>
         <p>Sup friends</p>
     </footer>
