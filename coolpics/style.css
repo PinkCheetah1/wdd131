@@ -91,6 +91,10 @@ header, footer {
     nav {
         text-align: center;
     }
+
+    .hidden {
+        display: block;
+    }
 }
           
 
